@@ -64,7 +64,7 @@ def _load_domain(args):
         dom = bonesis.InfluenceGraph.from_sif(args.input, canonic=False,
                 unsource=False, exact=True)
     else:
-        raise ValueError("Unknon file type for input")
+        raise ValueError("Unknown file type for input")
     return dom
 
 def _setup_argument_domain(ap):
